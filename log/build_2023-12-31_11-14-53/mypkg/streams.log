@@ -1,0 +1,24 @@
+[0.495s] Invoking command in '/home/tsubo/robosys2023_ROS2': PYTHONPATH=/home/tsubo/robosys2023_ROS2/build/mypkg/prefix_override:/home/tsubo/robosys2023_ROS2/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/tsubo/robosys2023_ROS2/build/mypkg/build install --record /home/tsubo/robosys2023_ROS2/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.602s] running egg_info
+[0.603s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.603s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.603s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.603s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.603s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.622s] package init file 'mypkg/__init__.py' not found (or not a regular file)
+[0.623s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.623s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.623s] running build
+[0.623s] running build_py
+[0.623s] running install
+[0.624s] running install_lib
+[0.625s] running install_data
+[0.625s] copying launch/talk_listen.launch.py -> /home/tsubo/robosys2023_ROS2/install/mypkg/share/mypkg
+[0.625s] running install_egg_info
+[0.627s] removing '/home/tsubo/robosys2023_ROS2/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.627s] Copying build/mypkg/mypkg.egg-info to /home/tsubo/robosys2023_ROS2/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.627s] running install_scripts
+[0.641s] Installing listener script to /home/tsubo/robosys2023_ROS2/install/mypkg/lib/mypkg
+[0.641s] Installing talker script to /home/tsubo/robosys2023_ROS2/install/mypkg/lib/mypkg
+[0.641s] writing list of installed files to '/home/tsubo/robosys2023_ROS2/build/mypkg/install.log'
+[0.658s] Invoked command in '/home/tsubo/robosys2023_ROS2' returned '0': PYTHONPATH=/home/tsubo/robosys2023_ROS2/build/mypkg/prefix_override:/home/tsubo/robosys2023_ROS2/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/tsubo/robosys2023_ROS2/build/mypkg/build install --record /home/tsubo/robosys2023_ROS2/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
