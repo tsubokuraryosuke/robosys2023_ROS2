@@ -1,3 +1,6 @@
+#SPDX-FIleCopyrightTexy: 2023 Tsubokura Ryosuke
+#SPDX-Lincense-Indentifier: BSD-3-Clause
+
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int16

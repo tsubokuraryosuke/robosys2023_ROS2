@@ -1,3 +1,6 @@
+#SPDX-FIleCopyrightTexy: 2023 Tsubokura Ryosuke
+#SPDX-Lincense-Indentifier: BSD-3-Clause
+
 import launch
 import launch.actions
 import launch.substitutions
