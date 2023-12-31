@@ -3,14 +3,14 @@ on: push
 jobs:
   test:
     runs-on: ubuntu-22.04
-    container: ryuichiueda/ubuntu22.04-ros2:latest
+    container: RyosukeTsubokura/untu22.04-ros2:latest
     steps:
       
 uses: actions/checkout@v2
 name: build and test
     run: |
-      rsync -av ./ /root/ros2_ws/src/mypkg/
-      cd /root/ros2_ws
+      rsync -av ./ /root/ros2_ws3/src/mypkg/
+      cd /root/ros2_ws3
       rosdep update
       rosdep install -i --from-path src --rosdistro humble -y
       bash -xv ./src/mypkg/test/test.bash /root
