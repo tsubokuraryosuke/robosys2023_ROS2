@@ -19,7 +19,7 @@ def cb():
     msg.data = m   
     pub.publish(msg)
     l = m
-    m += 1
+    m += n 
     n = l 
 
 node.create_timer(1, cb)
