@@ -18,9 +18,9 @@ def cb():
     msg = Int16()  
     msg.data = m   
     pub.publish(msg)
-    l = n
+    l = m
     m += n
-    n = m
+    n = l 
 
 node.create_timer(1, cb)
 rclpy.spin(node)            
