@@ -2,10 +2,10 @@
 [![test](https://github.com/tsubokuraryosuke/robosys2023_ROS2/actions/workflows/test.yml/badge.svg)](https://github.com/tsubokuraryosuke/robosys2023_ROS2/actions/workflows/test.yml)
 
 ## ノードとそれぞれの持つ意味
-* talker  
+* talker.py  
 毎秒フィボナッチ数列を計算し続ける
 
-* listener  
+* listener.py  
 talkerのノードから送られてきた計算結果を表示する
 
 
