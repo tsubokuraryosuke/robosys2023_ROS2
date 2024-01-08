@@ -1,5 +1,8 @@
-# フィボナッチ数列計算
+# mypkg
 [![test](https://github.com/tsubokuraryosuke/robosys2023_ROS2/actions/workflows/test.yml/badge.svg)](https://github.com/tsubokuraryosuke/robosys2023_ROS2/actions/workflows/test.yml)
+
+##目的
+このパッケージはフィボナッチ数列を計算し続けることをROS2パッケージで行う
 
 ## リポジトリ内のノード
 * talker.py  
@@ -14,7 +17,7 @@ talker.pyの計算結果を表示する
 端末1　$ ros2 run mypkg talker　
 端末2  $ ros2 run mypkg listener
 ```
-実行後は以下のようにlistenerが表示する
+実行後は以下のように表示される
 ```
 [INFO] [1704022405.445705040] [listener]: Listen: 1
 [INFO] [1704022406.440748786] [listener]: Listen: 2
