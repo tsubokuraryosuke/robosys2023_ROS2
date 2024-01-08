@@ -2,7 +2,7 @@
 [![test](https://github.com/tsubokuraryosuke/robosys2023_ROS2/actions/workflows/test.yml/badge.svg)](https://github.com/tsubokuraryosuke/robosys2023_ROS2/actions/workflows/test.yml)
 
 ## 目的
-このパッケージはフィボナッチ数列を計算し続けることをROS2パッケージで行う
+フィボナッチ数列を計算をROS2パッケージで行う
 
 ## リポジトリ内のノード
 * talker.py  
