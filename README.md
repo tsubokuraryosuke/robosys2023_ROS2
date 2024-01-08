@@ -1,7 +1,7 @@
 # フィボナッチ数列計算
 [![test](https://github.com/tsubokuraryosuke/robosys2023_ROS2/actions/workflows/test.yml/badge.svg)](https://github.com/tsubokuraryosuke/robosys2023_ROS2/actions/workflows/test.yml)
 
-## ノードとそれぞれの持つ意味
+## リポジトリ内のノード
 * talker.py  
 毎秒フィボナッチ数列を計算し続ける
 
@@ -31,7 +31,7 @@ talkerのノードから送られてきた計算結果を表示する
 
 ## テスト環境
 * Ubuntu 20.04
-* ROS foxy
+* ROS2 foxy
 
 ## 著作権及びライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます
